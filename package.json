@@ -1,0 +1,31 @@
+{
+  "name": "InstaPost",
+  "version": "1.0.0",
+  "description": "InstaPost App",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist:linux": "electron-builder --linux"
+  },
+  "keywords": [
+    "Electron",
+    "Linux",
+    "Instagram",
+    "starter"
+  ],
+  "author": "Igor Klein <igor.klein.sl@gmail.com>",
+  "license": "MIT",
+  "homepage": "http://github.com",
+
+  "devDependencies": {
+    "electron": "^17.1.0",
+    "electron-builder": "^22.14.13"
+  },
+  "build": {
+    "appId": "",
+    "linux": {
+      "target": ["deb"],
+      "category": "Utility"
+    }
+  }
+}
